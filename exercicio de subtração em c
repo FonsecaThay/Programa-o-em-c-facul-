@@ -1,0 +1,20 @@
+#inclued <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    int subtracao;
+    
+    prinf("Digite um numero:");
+    scanf("%i", &a);
+    
+    printf("Digite mais um numero:");
+    scanf("%i", &b);
+    
+    subtracao = a - b;
+    
+    printf("A subtracao eh: %i", subtracao);
+    
+    return 0;
+    
+    }
